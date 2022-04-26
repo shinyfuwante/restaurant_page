@@ -1,5 +1,5 @@
-const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
+const json5 = require('json5');
 
 module.exports = {
   entry: './src/index.js',
@@ -7,5 +7,19 @@ module.exports = {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
   },
-  plugins: [new HtmlWebpackPlugin()],
+  module: {
+      rules: [
+          {
+              test: /\.(png|svg|jpg|jpeg|gift|webp)$/i,
+              type: 'asset/resource',
+          },
+          {
+              test: /\.json5$/i,
+              type: 'json',
+              parser: {
+                  parse: json5.parse,
+              },
+          },
+      ],
+  },
 };
