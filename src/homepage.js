@@ -2,6 +2,7 @@ import bannerImage from './banner.webp';
 import cafeDesc from './kirby_cafe_desc.json5';
 
 const mainElement = document.querySelector('div#content');
+console.log(mainElement);
 
 const initializeHomePage = () => {
     generateBanner();
