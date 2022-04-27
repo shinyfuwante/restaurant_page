@@ -35,7 +35,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
         title: 'Kirby Cafe',
-        template: './template.html',
+        template: './src/template.html',
     },)
   ],
 };
