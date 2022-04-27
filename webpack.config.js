@@ -1,5 +1,6 @@
 const path = require('path');
 const json5 = require('json5');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: './src/index.js',
@@ -31,4 +32,10 @@ module.exports = {
           },
       ],
   },
+  plugins: [
+    new HtmlWebpackPlugin({
+        title: 'Kirby Cafe',
+        template: './template.html',
+    },)
+  ],
 };
