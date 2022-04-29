@@ -1,5 +1,6 @@
 import bannerImage from './assets/pictures/banner.webp';
 import cafeDesc from './assets/descriptions/kirby_cafe_desc.json5';
+import './styles/homepage.css'
 
 const mainElement = document.querySelector('div#content');
 console.log(mainElement);
