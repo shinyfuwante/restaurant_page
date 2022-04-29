@@ -1,4 +1,5 @@
 import kawasaki_avatar from './assets/pictures/chef_kawasaki.webp';
+import './styles/contacts.css';
 
 const mainElement = document.querySelector('div#content');
 console.log(mainElement);

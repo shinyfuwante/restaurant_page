@@ -4,6 +4,7 @@ import kirbpcki from './assets/pictures/menu_items/kirby_pancake.webp';
 import maximi from './assets/pictures/menu_items/maxim_tomato_drink.webp';
 import waddlehayashii from './assets/pictures/menu_items/waddle_dee_hayashi.webp';
 import waddleomuricei from './assets/pictures/menu_items/waddle_dee_omurice.webp';
+import './styles/menus.css';
 
 const mainElement = document.querySelector('div#content');
 console.log(mainElement);
