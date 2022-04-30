@@ -13,3 +13,21 @@
 * {
     font-family: 'Comfortaa';
 }
+html, .root {
+    background-color: pink;
+
+}
+
+#content { 
+    display: flex;
+    flex-direction: column;
+}
+.button-container {
+    margin-top: 2vh;
+    align-self: center;
+}
+
+.button-container + div {
+    align-self: center;
+    border: 2px solid red;
+}

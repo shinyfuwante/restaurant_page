@@ -1,6 +1,7 @@
 import {initializeHomePage} from './homepage';
 import {initializeMenus} from './menus';
 import {initializeContacts} from './contact';
+import './styles/main.css';
 
 const mainElement = document.querySelector('div#content');
 
@@ -10,13 +11,16 @@ const tabsListener = (() => {
     let menuButton;
     let contactButton;
     const renderButtons = () => {
+        const buttonContainer = document.createElement('div');
+        buttonContainer.classList.add('button-container');
         for (let i = 0; i < 3; i++) {
             const button = document.createElement('button');
-            mainElement.appendChild(button);
+            buttonContainer.appendChild(button);
             buttonList[i] = button;
             
         }
         configButtons();
+        mainElement.appendChild(buttonContainer);
     };
 
     const configButtons = () => {
