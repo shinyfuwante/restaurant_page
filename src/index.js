@@ -1,7 +1,7 @@
+import './styles/main.css';
 import {initializeHomePage} from './homepage';
 import {initializeMenus} from './menus';
 import {initializeContacts} from './contact';
-import './styles/main.css';
 
 const mainElement = document.querySelector('div#content');
 
