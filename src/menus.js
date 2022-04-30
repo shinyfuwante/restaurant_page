@@ -7,7 +7,6 @@ import waddleomuricei from './assets/pictures/menu_items/waddle_dee_omurice.webp
 import './styles/menus.css';
 
 const mainElement = document.querySelector('div#content');
-console.log(mainElement);
 
 //possibility, throw everything into a json and parse it from there.
 const initializeMenus = () => {
