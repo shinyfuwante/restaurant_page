@@ -3,11 +3,6 @@
     justify-items: center;
     align-content: center;
     text-align: center;
-    gap: 1.5em;
-    width: 70vw;
-    height: 76vh;
-    padding: 0.75em;
-    background-color: yellow;
 }
 
 .homepage-container img {
@@ -15,4 +10,8 @@
     height: auto;
     justify-self: center;
     align-self: center;
+}
+
+.homepage-container h1 {
+    margin-bottom: -0.25em;
 }
