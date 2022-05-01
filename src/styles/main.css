@@ -45,9 +45,14 @@ body {
 
 .button-container button {
     padding: 0.5em;
-    border: 1px solid white;
+    border: 1px solid orange;
     background-color: yellow;
     color: red;
+    cursor: pointer;
+}
+
+.button-container button:hover {
+    background-color: yellowgreen;
 }
 
 .button-container + div {
