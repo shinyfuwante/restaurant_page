@@ -15,11 +15,16 @@
     margin: 0;
     padding: 0;
 }
-html, .root {
-    background-color: pink;
+html {
     background: url('../assets/pictures/wallpaper.webp');
     background-size: 150%;
     z-index: -1;
+}
+
+body {
+    background-color: rgba(255,255,255,0.7);
+    height: 100vh;
+    z-index:-1;
 }
 
 #content { 
