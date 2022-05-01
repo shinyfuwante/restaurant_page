@@ -1,8 +1,8 @@
 .homepage-container {
     display: flex;
+    flex-direction: column;
     justify-items: center;
-    align-content: center;
-    text-align: center;
+    align-self: center;
 }
 
 .homepage-container img {

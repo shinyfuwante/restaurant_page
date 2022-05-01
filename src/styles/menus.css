@@ -1,9 +1,23 @@
 .menu-container {
     display: grid;
     background-color: yellow;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 450px));
+    font-size: 12pt;
+    place-items: center;
+    width: 100%;
 }
 
-.menu-container img {
-    width: clamp(100px, 250px, 350px);
-    height: auto;
+.menu-container .menu-item {
+    width: clamp(100px, 350px, 450px);
+    height: clamp(100px, 350px, 450px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.menu-item img {
+    width: 175px;
+    height: 175px;
 }

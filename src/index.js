@@ -1,4 +1,7 @@
 import './styles/main.css';
+import './styles/menus.css';
+import './styles/homepage.css';
+import './styles/contacts.css';
 import {initializeHomePage} from './homepage';
 import {initializeMenus} from './menus';
 import {initializeContacts} from './contact';
