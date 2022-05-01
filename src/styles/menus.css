@@ -1,20 +1,21 @@
-.menu-container {
+div .menu-container {
     display: grid;
     background-color: yellow;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 450px));
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     font-size: 12pt;
     place-items: center;
-    width: 100%;
+    gap: 1em;
 }
 
 .menu-container .menu-item {
-    width: clamp(100px, 350px, 450px);
-    height: clamp(100px, 350px, 450px);
+    width: clamp(100px, 250px, 350px);
+    height: clamp(100px, 250px, 350px);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    gap: 0.5em;
 }
 
 .menu-item img {
