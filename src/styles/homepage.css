@@ -4,12 +4,14 @@
     align-content: center;
     text-align: center;
     gap: 1.5em;
-    width: 80vw;
-    height: 84vh;
+    width: 70vw;
+    height: 76vh;
+    padding: 0.75em;
+    background-color: yellow;
 }
 
 .homepage-container img {
-    width: 70%;
+    width: 75%;
     height: auto;
     justify-self: center;
     align-self: center;

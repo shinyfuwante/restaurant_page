@@ -17,12 +17,15 @@
 }
 html, .root {
     background-color: pink;
-
+    background: url('../assets/pictures/wallpaper.webp');
+    background-size: 150%;
+    z-index: -1;
 }
 
 #content { 
     display: flex;
     flex-direction: column;
+    height: 95vh;
 }
 .button-container {
     margin-top: 2vh;
