@@ -1,0 +1,16 @@
+.homepage-container {
+    display: flex;
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+    gap: 1.5em;
+    width: 80vw;
+    height: 84vh;
+}
+
+.homepage-container img {
+    width: 70%;
+    height: auto;
+    justify-self: center;
+    align-self: center;
+}

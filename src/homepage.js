@@ -9,9 +9,8 @@ const initializeHomePage = () => {
     container = document.createElement('div');
     container.classList.add("homepage-container");
     mainElement.appendChild(container);
-
-    generateBanner();
     generateHeading();
+    generateBanner();
     generateDesc();
 }
 
