@@ -28,8 +28,21 @@ html, .root {
     height: 95vh;
 }
 .button-container {
-    margin-top: 2vh;
     align-self: center;
+    background-color: orange;
+    flex: 1;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content:center;
+    padding-top: 2vh;
+}
+
+.button-container button {
+    padding: 0.5em;
+    border: 1px solid white;
+    background-color: yellow;
+    color: red;
 }
 
 .button-container + div {
