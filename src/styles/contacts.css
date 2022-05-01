@@ -1,0 +1,14 @@
+div .contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-container img {
+    width: 500px;
+    height: auto;
+}
+.contact-container img.kawasaki { 
+    width: 300px;
+}
