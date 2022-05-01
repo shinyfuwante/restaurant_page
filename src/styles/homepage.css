@@ -2,11 +2,13 @@
     display: flex;
     flex-direction: column;
     justify-items: center;
+    align-content: center;
     align-self: center;
+    text-align: center;
 }
 
 .homepage-container img {
-    width: 75%;
+    width: 55%;
     height: auto;
     justify-self: center;
     align-self: center;
@@ -14,4 +16,9 @@
 
 .homepage-container h1 {
     margin-bottom: -0.25em;
+}
+
+.homepage-container span {
+    width: 55%;
+    align-self: center;
 }

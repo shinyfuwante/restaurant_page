@@ -1,4 +1,4 @@
-import bannerImage from './assets/pictures/banner.webp';
+import bannerImage from './assets/pictures/kirby-cafe.jpeg';
 import cafeDesc from './assets/descriptions/kirby_cafe_desc.json5';
 
 const mainElement = document.querySelector('div#content');
